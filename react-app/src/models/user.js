@@ -23,11 +23,5 @@ class User extends React.Component {
             alert(`Exception on user fetch request for user ${id}`);
             console.log(e);
         }
-      }
-
-    render() {
-        return (
-            <h1>this.state.uID</h1>
-        )
     }
 }
